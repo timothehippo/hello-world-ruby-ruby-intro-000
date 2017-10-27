@@ -6,5 +6,5 @@ describe "Hello World" do
     expect($stdout).to receive(:puts).with("Hello World!")
     load './hello_world.rb'
   end
-
+  puts "helloWORLD!"
 end
